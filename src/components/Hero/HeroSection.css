@@ -1,18 +1,10 @@
 /* Hero Section Container */
 .HeroSection {
   width: 100%;
-  height: 600px;
-  margin: 2px auto;
+  height: 570px;
+  margin: 5px auto;
   position: relative;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-/* Slider Container */
-.HeroSlider {
-  width: 100%;
-  height: 100vh;
-  position: relative;
+  border-radius: 5px;
   overflow: hidden;
 }
 
@@ -51,8 +43,8 @@
   transform: translateY(-50%);
   color: white;
   z-index: 3; /* Ensure it stays above the slides */
-  width: 90%;
-  max-width: 592px;
+  width: 85%;
+  max-width: 600px;
   height: auto;
   text-align: left;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -98,13 +90,12 @@
 /* Buttons Section */
 .hero-buttons {
   display: flex;
-  gap: 17px;
+  gap: 20px;
 }
 
 .hero-buttons button {
   width: 200px;
   height: 60px;
-  /* padding: 10px 20px; */
   border: none;
   border-radius: 5px;
   font-size: 1em;
@@ -116,9 +107,8 @@
   background-color: #004aad;
   color: white;
   font-family: Open Sans;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 600;
-  line-height: 28px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
@@ -131,9 +121,8 @@
   background-color: #fff;
   color: #004aad;
   font-family: Open Sans;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 600;
-  line-height: 28px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
@@ -143,6 +132,3 @@
   color: #fff;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-}

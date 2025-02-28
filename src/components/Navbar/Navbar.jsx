@@ -68,7 +68,9 @@ const Navbar = () => {
             {activeDropdown === "about-us" && (
               <ul className="dropdown-menu">
                 <li>
-                  <Link to= "/OurProfile"><a href="#">Our Profile</a></Link>
+                  <Link to="/OurProfile">
+                    <a href="#">Our Profile</a>
+                  </Link>
                 </li>
                 <li>
                   <a href="#">Our Story</a>
@@ -99,30 +101,7 @@ const Navbar = () => {
 
           {/* Get Involved */}
           <li className="dropdown">
-            <button onClick={() => handleDropdownToggle("get-involved")}>
-              Get Involved
-              <i
-                className={`material-icons ${
-                  activeDropdown === "get-involved"
-                    ? "expand_less"
-                    : "expand_more"
-                }`}
-              >
-                {activeDropdown === "get-involved"
-                  ? "expand_less"
-                  : "expand_more"}
-              </i>
-            </button>
-            {activeDropdown === "get-involved" && (
-              <ul className="dropdown-menu">
-                <li>
-                  <a href="#">Partner with Us</a>
-                </li>
-                <li>
-                  <a href="#">Sponsor an Event</a>
-                </li>
-              </ul>
-            )}
+            <a href="#getInvolved">Get Involved</a>
           </li>
 
           {/* Learning-Hub*/}
@@ -150,7 +129,7 @@ const Navbar = () => {
                   <a href="#">Book a Counselor</a>
                 </li>
                 <li>
-                  <a href="#">Join Student Commmunity</a>
+                  <a href="#">Join Commmunity</a>
                 </li>
                 <li>
                   <a href="#">Book an Online Tutor</a>
@@ -160,11 +139,9 @@ const Navbar = () => {
           </li>
 
           {/* Contact Us */}
-          <div className="NavOthers">
-            <li>
-              <a href="#">Contact Us</a>
-            </li>
-          </div>
+          <li>
+            <a href="#contact">Contact Us</a>
+          </li>
         </ul>
       </div>
 

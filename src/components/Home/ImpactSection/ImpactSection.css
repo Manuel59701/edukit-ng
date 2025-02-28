@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
 
 .impact-section {
-  height: 530px;
+  height: 550px;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   background-image: url("../ImpactSection/Background.png"); /* Path to your background image */
   background-size: cover;
   background-position: center;
@@ -32,9 +32,8 @@
 
 .impact-title {
   font-family: "Signika";
-  font-size: 48px;
+  font-size: 1.5rem;
   font-weight: 600;
-  line-height: 60px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
@@ -60,7 +59,7 @@
 
 .impact-number h3 {
   font-family: Signika;
-  font-size: 60px;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: 0.02em;
   text-align: center;
@@ -76,7 +75,7 @@
 
 .impact-number small {
   font-family: Open Sans;
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 24px;
   text-align: center;
@@ -102,11 +101,12 @@
     padding: 32px;
   }
   .impact-title {
-    font-size: 40px;
+    font-size: 2rem;
     line-height: 50px;
   }
   .impact-number h3 {
-    font-size: 50px;
+    margin-top: 10px;
+    font-size: 1.5rem;
   }
   .impact-numbers {
     gap: 40px;
@@ -121,8 +121,7 @@
     padding: 24px;
   }
   .impact-title {
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 2rem;
   }
   .impact-numbers {
     flex-wrap: wrap;
@@ -130,10 +129,11 @@
     gap: 30px;
   }
   .impact-number h3 {
-    font-size: 42px;
+    margin-top: 10px;
+    font-size: 1.8rem;
   }
   .impact-number small {
-    font-size: 14px;
+    font-size: 1.2rem;
   }
 }
 
@@ -148,7 +148,7 @@
     padding: 20px;
   }
   .impact-title {
-    font-size: 28px;
+    font-size: 2rem;
     line-height: 36px;
   }
   .impact-numbers {
@@ -156,23 +156,24 @@
     gap: 20px;
   }
   .impact-number h3 {
-    font-size: 36px;
+    font-size: 1.8rem;
   }
   .impact-number small {
-    font-size: 12px;
+    font-size: 1rem;
   }
 }
 
 /* Very small screens (Phones: Below 480px) */
 @media (max-width: 480px) {
   .impact-title {
-    font-size: 24px;
+    font-size: 1.7rem;
     line-height: 15px;
   }
   .impact-number h3 {
-    font-size: 32px;
+    margin-top: 10px;
+    font-size: 1.8rem;
   }
   .impact-number small {
-    font-size: 12px;
+    font-size: 1.1rem;
   }
 }
