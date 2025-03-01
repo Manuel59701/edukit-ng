@@ -1,11 +1,4 @@
 /* Navbar Container */
-* {
-  font-family: "Open Sans", serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .Navbar {
   position: fixed;
   top: 0;
@@ -15,17 +8,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 /* Logo */
 .NavLogo img {
-  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+
 }
 
 .MenuIcon {
   display: none;
-  font-size: 24px;
+  font-size: 1rem;
   cursor: pointer;
 }
 
@@ -36,13 +33,26 @@
 
 /* Navigation Items */
 .NavItems ul {
-  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  gap: 20px;
+  gap: 10px;
+}
+
+/* Adjust margins for a clean layout */
+.NavItems ul {
+  text-align: center;
+}
+
+.NavItems li {
+  text-align: left; /* Center align the individual list items */
+  position: relative;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+.NavItems li:hover {
+  transform: translate(5px);
 }
 
 /* Dropdown Button */
@@ -50,10 +60,8 @@
   background: none;
   border: none;
   font-family: "Open Sans", serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 24px;
-  text-align: left;
   cursor: pointer;
   padding: 5px 10px;
   color: #535862;
@@ -66,15 +74,10 @@
 
 /* Links without dropdown */
 .NavItems a {
-  text-decoration: none;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 24px;
-  text-align: left;
   color: #535862;
-
-  /* padding: 5px 10px; */
 }
 
 .NavItems a:hover {
@@ -83,26 +86,24 @@
 
 /* Dropdown Menu */
 .dropdown-menu {
-  width: 220px;
-  height: 250px;
-  display: none;
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 46px;
   left: -30px;
   background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  list-style: none;
-  padding: 10px 0;
-  margin: 0;
+  padding: 10px;
   z-index: 10;
-  flex-direction: column;
-  /* text-align: center; Center align text in the dropdown */
-  border-radius: 12px;
-  justify-self: start;
+  border-radius: 10px;
 }
+
 .dropdown button i {
   vertical-align: middle;
-  margin-left: 5px;
 }
 
 /* Display dropdown menu on hover or when open */
@@ -115,11 +116,9 @@
 .dropdown-menu li {
   padding: 10px 10px;
   text-align: left;
-  /* background-color: darkgray; */
 }
 .dropdown-menu li a {
-  /* background-color: #004aad; */
-  width: 70%;
+  width: 100%;
   height: 60px;
 }
 
@@ -131,9 +130,6 @@
   left: 100%;
   background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  list-style: none;
-  padding: 0;
-  margin: 0;
   z-index: 15;
   flex-direction: column;
   text-align: center; /* Center align text in the submenu */
@@ -166,22 +162,6 @@
   color: #004aad;
 }
 
-/* Adjust margins for a clean layout */
-.NavItems ul {
-  text-align: center;
-}
-
-.NavItems li {
-  margin: 0 10px;
-  text-align: left; /* Center align the individual list items */
-  position: relative;
-  margin: 0 15px;
-}
-
-.NavOthers {
-  margin-top: 5px;
-}
-
 /* Buttons for Sign Up and Log In */
 .NavButtons {
   display: flex;
@@ -190,12 +170,11 @@
 }
 
 .NavButtons button {
-  padding: 10px 15px;
+  padding: 10px 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
@@ -228,7 +207,7 @@
     position: fixed;
     top: 0;
     right: -100%;
-    width: 250px;
+    width: 210px;
     height: 100vh;
     background-color: #ffffff;
     flex-direction: column;
@@ -249,7 +228,7 @@
 
   .MenuIcon {
     display: block;
-    font-size: 24px;
+    font-size: 1.2rem;
     cursor: pointer;
     z-index: 10000;
     position: absolute;
