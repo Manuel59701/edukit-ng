@@ -4,37 +4,57 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 4rem;
   background-color: #f3f7fa;
   max-width: 1500px;
   height: auto;
 }
 
 .key-features-left {
+<<<<<<< HEAD
   margin-left: 2rem;
+=======
+  flex: 1;
+>>>>>>> 4319848a57b7b2dc116770e1c6b4a4a39b9f4e35
 }
 
 .features-title {
-  font-family: Signika;
+  font-family: "Signika" serif;
   font-weight: 600;
+<<<<<<< HEAD
   font-size: 1.3rem;
+=======
+  font-size: 1.875rem;
+  line-height: 38px;
+  letter-spacing: 0%;
+>>>>>>> 4319848a57b7b2dc116770e1c6b4a4a39b9f4e35
   color: #004aad;
 }
 
 .head {
-  font-size: 1.5rem;
+  font-size: 3.75rem;
   letter-spacing: 0.02em;
   margin: 5px 0;
   font-family: "Signika", serif;
   font-weight: 500;
   text-align: left;
   color: #252b37;
+  width: 80%;
 }
 
 .features-description {
+<<<<<<< HEAD
   font-weight: 500;
   font-size: 1.2rem;
+=======
+  font-family: "Open" Sans;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 28px;
+  letter-spacing: 0%;
+>>>>>>> 4319848a57b7b2dc116770e1c6b4a4a39b9f4e35
   color: #535862;
+  width: 80%;
 }
 
 .cta-button {
@@ -64,11 +84,11 @@
 
 .feature-card {
   background-color: white;
-  width: 300px;
-  height: auto;
+  width: 280px;
+  height: 372px;
   padding: 24px 16px;
   border-radius: 16px;
-  border: 0.5px solid #ddd;
+  border: 0.5px solid #a4a7ae;
   text-align: left;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
@@ -95,15 +115,23 @@
   line-height: 32px;
   text-align: left;
   margin-bottom: 0.5rem;
-  color: #004aad;
+  color: #252b37;
+  width: 80%;
 }
 
 .feature-text {
+<<<<<<< HEAD
   font-size: 1rem;
   font-weight: 500;
+=======
+  font-family: "Open Sans", serif;
+  font-size: 1rem;
+  font-weight: 400;
+>>>>>>> 4319848a57b7b2dc116770e1c6b4a4a39b9f4e35
   line-height: 24px;
   text-align: left;
   color: #535862;
+  width: 93%;
 }
 
 .feature-text span {

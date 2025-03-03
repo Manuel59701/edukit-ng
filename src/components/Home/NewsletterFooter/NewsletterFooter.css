@@ -14,25 +14,30 @@
 }
 
 .newsletter-title {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 600;
   margin-bottom: 1.5rem;
+  line-height: 44px;
 }
 
 .newsletter-description {
-  max-width: 800px;
+  width: 48%;
   margin: 0 auto 2rem;
-  line-height: 1.6;
+  line-height: 28px;
+  font-size: 1.125rem;
+  color: #fafafa;
 }
 
 .newsletter-form {
   display: flex;
   gap: 5px;
+  justify-content: center;
   margin: 0 auto 1rem;
 }
 
 .email-input {
-  flex: 1;
+  width: 431px;
+  height: 44px;
   padding: 0.8rem 1rem;
   border: none;
   border-radius: 4px;
@@ -56,7 +61,9 @@
 
 .privacy-note {
   font-size: 0.875rem;
-  opacity: 0.8;
+  line-height: 20px;
+  color: #e9eaeb;
+  margin-right: 17rem;
 }
 
 .privacy-link {
@@ -74,9 +81,10 @@
 
 .footer-section h3 {
   color: #004aad;
-  font-size: 1.2rem;
+  font-size: 1.125rem;
   margin-bottom: 1.5rem;
   font-weight: 600;
+  line-height: 28px;
 }
 
 .footer-section ul {
@@ -87,12 +95,18 @@
 
 .footer-section ul li {
   margin-bottom: 1rem;
+  color: #717680;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
 }
 
 .footer-section ul li a {
   text-decoration: none;
-  color: #666;
+  color: #717680;
   font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
   transition: color 0.3s ease;
 }
 
@@ -102,11 +116,15 @@
 
 .contact-section ul li {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.5rem;
-  color: #666;
-  font-size: 0.9rem;
-  line-height: 1.5;
+  color: #717680;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+.contact-section ul li:hover {
+  color: #0066cc;
 }
 
 .contact-section ul li:nth-child(2),

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+
+.SDG_container{
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: rgba(250, 250, 250, 1);
+}
+
+.blueText{
+  color: rgba(0, 74, 173, 1);
+}
+
+.SDG_header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.SDG_title{
+  font-family: "Signika", sans-serif;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4.5rem;
+  color: #252B37;
+  margin-bottom: 10px;
+}
+
+.SDG_description{
+  font-weight: 400;
+  font-size: 1.07rem;
+  line-height: 1.87rem;
+  color: #535862;
+  width: 78%;
+}
+
+.blueLink{
+  color: rgba(0, 74, 173, 1);
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+.SDG_grid{
+  display: grid;
+  grid-template-columns: repeat(3, 24rem);
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.SDG_box{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 28px;
+  border: 2px;
+  box-shadow: 0px 20px 24px -4px #0a0d1214;
+  padding: 15px;
+  height: 26rem;
+}
+
+.SDG_image{
+  width: 11rem;
+  height: 11rem;
+  object-fit: contain;
+
+}
+
+.card-title{
+  color: #181D27;
+  font-weight: 600;
+  font-size: 1.18rem;
+  line-height: 1.8rem;
+}
+
+.SDG_text{
+  color: #535862;
+  font-weight: 400;
+  font-size: 0.95rem;
+  line-height: 1.75rem;
+  margin-top: 13px;
+  width: 20rem;
+}

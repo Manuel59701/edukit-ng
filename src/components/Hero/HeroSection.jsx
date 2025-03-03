@@ -41,7 +41,7 @@ const HeroSection = () => {
         ))}
       </div>
       <div className="HeroContent">
-        <p className="hero-subtitle">EDUKIT NIGERIA</p>
+        <p className="hero-subtitle">EDUKIT FOUNDATION</p>
         <h1 className="hero-title">
           BRIDGING GAPS, <br />
           BUILDING FUTURES!

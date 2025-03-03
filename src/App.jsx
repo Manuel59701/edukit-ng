@@ -3,6 +3,10 @@ import Home from "./Pages/Home";
 import OurProfile from "./Pages/OurProfile";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import OurHolisticApproach from "./components/OurProfile/OurHolisticApproach";
+import NewsletterFooter from "./components/Home/NewsletterFooter/NewsletterFooter";
+
+
 // import Profile from "./Pages/Profile";
 
 const App = () => {
@@ -17,6 +21,8 @@ const App = () => {
             </Route>
             <Route exact path="/OurProfile">
               <OurProfile />
+             <OurHolisticApproach />
+             <NewsletterFooter />
             </Route>
           </Switch>
         </div>
