@@ -294,3 +294,59 @@
     gap: 10px;
   }
 }
+
+@media screen and (max-width: 1250px) {
+  .NavItems {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 60px;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+  }
+
+  .NavItems.active {
+    right: 0;
+  }
+
+  .NavItems ul {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .MenuIcon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10000;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .NavButtons {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .NavItems ul {
+    gap: 0px;
+  }
+  .NavItems ul li {
+    font-size: 0.9rem;
+    min-width: 20px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .NavItems ul {
+    gap: 0px;
+  }
+}
